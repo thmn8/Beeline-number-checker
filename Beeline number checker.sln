@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beeline number checker", "Beeline number checker\Beeline number checker.csproj", "{CCB4FF04-E76C-44BD-AF95-45E5F582DF61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB4FF04-E76C-44BD-AF95-45E5F582DF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB4FF04-E76C-44BD-AF95-45E5F582DF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB4FF04-E76C-44BD-AF95-45E5F582DF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB4FF04-E76C-44BD-AF95-45E5F582DF61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01C8431E-2569-4494-9623-69F8B5915511}
+	EndGlobalSection
+EndGlobal
