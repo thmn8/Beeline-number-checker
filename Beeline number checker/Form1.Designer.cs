@@ -29,62 +29,66 @@ namespace Beeline_number_checker
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.chec_button = new System.Windows.Forms.Button();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.statusStrip1.SuspendLayout();
-            this.SuspendLayout();
+            textBox1 = new System.Windows.Forms.TextBox();
+            chec_button = new System.Windows.Forms.Button();
+            statusStrip1 = new System.Windows.Forms.StatusStrip();
+            toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            statusStrip1.SuspendLayout();
+            SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(245, 23);
-            this.textBox1.TabIndex = 0;
+            textBox1.Location = new System.Drawing.Point(14, 16);
+            textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new System.Drawing.Size(279, 27);
+            textBox1.TabIndex = 0;
             // 
             // chec_button
             // 
-            this.chec_button.Location = new System.Drawing.Point(12, 52);
-            this.chec_button.Name = "chec_button";
-            this.chec_button.Size = new System.Drawing.Size(245, 36);
-            this.chec_button.TabIndex = 1;
-            this.chec_button.Text = "Проверить";
-            this.chec_button.UseVisualStyleBackColor = true;
-            this.chec_button.Click += new System.EventHandler(this.Chec_button_Click);
+            chec_button.Location = new System.Drawing.Point(14, 69);
+            chec_button.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            chec_button.Name = "chec_button";
+            chec_button.Size = new System.Drawing.Size(280, 48);
+            chec_button.TabIndex = 1;
+            chec_button.Text = "Проверить";
+            chec_button.UseVisualStyleBackColor = true;
+            chec_button.Click += Chec_button_Click;
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 99);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(269, 22);
-            this.statusStrip1.TabIndex = 2;
-            this.statusStrip1.Text = "statusStrip1";
+            statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { toolStripStatusLabel1 });
+            statusStrip1.Location = new System.Drawing.Point(0, 137);
+            statusStrip1.Name = "statusStrip1";
+            statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 16, 0);
+            statusStrip1.Size = new System.Drawing.Size(307, 24);
+            statusStrip1.SizingGrip = false;
+            statusStrip1.TabIndex = 2;
+            statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
-            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
+            toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            toolStripStatusLabel1.Size = new System.Drawing.Size(0, 18);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(269, 121);
-            this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.chec_button);
-            this.Controls.Add(this.textBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(307, 161);
+            Controls.Add(statusStrip1);
+            Controls.Add(chec_button);
+            Controls.Add(textBox1);
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            MaximizeBox = false;
+            Name = "Form1";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            statusStrip1.ResumeLayout(false);
+            statusStrip1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
